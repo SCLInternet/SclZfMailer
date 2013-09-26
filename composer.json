@@ -1,0 +1,37 @@
+{
+    "name" : "sclinternet/scl-zf-mailer",
+    "description" : "Mail system for Zend Framework 2",
+    "type" : "library",
+    "authors" : [{
+            "name" : "Tom Oram",
+            "email" : "tom@x2k.co.uk",
+            "homepage" : "http://github.com/tomphp"
+        }
+    ],
+    "keywords" : [
+        "email",
+        "mail",
+        "template"
+    ],
+    "homepage" : "https://github.com/SCLInternet/SclZfMailer",
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
+        "php" : ">=5.4",
+        "sclinternet/scl-contact": "dev-master",
+        "zendframework/zend-mail" : ">=2.2"
+    },
+    "require-dev" : {
+        "phpspec/phpspec": "2.0.*@dev",
+        "squizlabs/php_codesniffer" : "1.*",
+        "phpmd/phpmd" : "1.4.0",
+        "henrikbjorn/phpspec-code-coverage" : "dev-master",
+        "satooshi/php-coveralls": "dev-master"
+    },
+    "autoload" : {
+        "psr-0" : {
+            "SclZfMailer\\" : "src/"
+        }
+    }
+}
